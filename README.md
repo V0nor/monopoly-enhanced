@@ -16,9 +16,12 @@
 
 **Banco imobiliário: Eventos especiais** é uma inovação no clássico jogo de tabuleiro Banco Imobiliário, introduzindo um dado especial com condições tanto positivas quanto negativas para os jogadores. Este projeto é construído com a mais moderna tecnologia web, utilizando React, TypeScript, Vite e Tailwind CSS, oferecendo uma experiência rica e interativa.
 
-Funcionalidades principais:
-✅ **Dado Especial:** Incorpora elementos de surpresa e estratégia adicional, com cada lado apresentando diferentes condições.
+**Funcionalidades principais:**
+
+✅ **Dado Especial:** Incorpora elementos de surpresa e estratégia adicional, com cada lado apresentando diferentes condições ou positivas ou negativas.
+
 ✅ **Tecnologia Avançada:** Desenvolvido com as mais recentes ferramentas do ecossistema web para garantir uma experiência de usuário fluída.
+
 ✅ **Personalização:** Permite aos jogadores a opção de personalizar as regras em torno do dado especial, tornando cada jogo único.
 
 ## Instalação
