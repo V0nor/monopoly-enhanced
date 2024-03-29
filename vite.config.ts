@@ -1,10 +1,9 @@
-import { defineConfig } from 'vite';
-import eslintPlugin from '@nabla/vite-plugin-eslint';
-import react from '@vitejs/plugin-react-swc';
-import path from 'path';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react-swc'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), eslintPlugin()],
+  plugins: [react()],
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -12,12 +11,7 @@ export default defineConfig({
       external: [],
     },
   },
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
   server: {
     host: '0.0.0.0',
   },
-});
+})
