@@ -11,7 +11,13 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+**Funcionalidades principais:**
+
+✅ **Dado Especial:** Incorpora elementos de surpresa e estratégia adicional, com cada lado apresentando diferentes condições ou positivas ou negativas.
+
+✅ **Tecnologia Avançada:** Desenvolvido com as mais recentes ferramentas do ecossistema web para garantir uma experiência de usuário fluída.
+
+✅ **Personalização:** Permite aos jogadores a opção de personalizar as regras em torno do dado especial, tornando cada jogo único.
 
 ```js
 export default {
@@ -22,7 +28,7 @@ export default {
     project: ['./tsconfig.json', './tsconfig.node.json'],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
